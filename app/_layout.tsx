@@ -1,4 +1,4 @@
-import { Navigator, Slot } from "expo-router";
+import { Slot } from "expo-router";
 
 export {
   // Catch any errors thrown by the Layout component.
@@ -11,9 +11,5 @@ export const unstable_settings = {
 };
 
 export default function RootLayoutNav() {
-  return (
-    <Navigator>
-      <Slot />
-    </Navigator>
-  );
+  return <Slot />;
 }
